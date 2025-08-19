@@ -8,5 +8,7 @@ def opcoes():
         return calculadora.somar()
     elif opcao == 2:
         return calculadora.subtrair()
-    
+    elif opcao == 3:
+        return calculadora.multiplicar()
+
 
