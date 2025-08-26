@@ -23,4 +23,7 @@ def menu():
             if opcao == 1:
                 print("Resultado:", calculadora.somar(a, b))
 
+            if opcao ==2:
+                print("Resultado:", calculadora.subtrair(a, b))
+
 
