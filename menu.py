@@ -29,8 +29,13 @@ def menu():
             if opcao ==3:
                 print("Resultado:", calculadora.multiplicar(a, b))
 
-            if opcao ==4:
-                print("Resultado:", calculadora.dividir(a, b))
-                
+            elif opcao == 4:
+                if b == 0:
+                    print("Erro: divisão por zero não é permitida.")
+                else:
+                    print("Resultado:", calculadora.dividir(a, b))
+        else:
+            print("Opção inválida!")
+
 
 
