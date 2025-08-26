@@ -29,4 +29,8 @@ def menu():
             if opcao ==3:
                 print("Resultado:", calculadora.multiplicar(a, b))
 
+            if opcao ==4:
+                print("Resultado:", calculadora.dividir(a, b))
+                
+
 
